@@ -1,0 +1,39 @@
+@import "./css/fonts.css";
+@import "./css/header.css";
+@import "./css/index/banner.css";
+
+@import "css/index/popappind.css";
+@import "css/popup_btn_close.css";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #BABABA;
+    
+}
+
+.noscript {
+    position: absolute;
+    left: 10vw;
+    right: 10vw;
+    top: 20vh;
+    font-size: 30px;
+    text-align: center;
+}
+
+.stopOldBrowser {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    color:red;
+}

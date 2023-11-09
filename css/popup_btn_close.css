@@ -1,0 +1,40 @@
+.index_btn_close_popApp {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: rgb(90, 70, 70);
+    font-size: 25px;
+    font-weight: 900;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    border: 1px solid rgb(90, 70, 70);
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: .2s;
+    transition: .2s;
+    font-family: 'Courier New', Courier, monospace;
+    /* z-index: 4; */
+}
+
+
+.index_btn_close_popApp:hover {
+    -webkit-filter: drop-shadow(0 0 .75rem crimson);
+            filter: drop-shadow(0 0 .75rem crimson);
+    background-color: red;
+    color: white;
+    -webkit-transition: .2s;
+    transition: .2s;
+    /* animation: rotation 2s linear infinite; */
+}

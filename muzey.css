@@ -1,0 +1,29 @@
+@import "css/biblio/biblio.css";
+@import "css/biblio/card.css";
+@import "css/biblio/popupbibl.css";
+@import "css/biblio/btns.css";
+
+@import "css/header.css";
+@import "css/fonts.css";
+@import "css/popup_btn_close.css";
+
+:root {
+    --otstup:41px;
+    --fontSizeH:16px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #BABABA;
+}

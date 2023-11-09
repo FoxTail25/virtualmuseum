@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./index.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+    <title>Виртуальный музей читателя РГБИ</title>
+
+    <script src="js/index/oldBrowser.js"></script>
+
+</head>
+
+
+
+
+<body>
+
+<noscript class="noscript">
+    Браузер не подерживается. Пожалуйста откройте приложение в более современном браузере с поддержкой JavaScript
+</noscript>
+
+    <header class="hid">
+
+        <div class="header_container">
+
+            <div class="header_container_up">
+
+                <a href="https://culture.gov.ru/" style="text-decoration: none" target="_blank">
+                    <div class="header_banner banner1">
+                        <img src="img/banner/logMKblue.png" alt="logo_Министерства культуры"
+                            title="МИНИСТЕРСТВО КУЛЬТУРЫ РОССИЙСКОЙ ФЕДЕРАЦИИ">
+                    </div>
+                </a>
+
+                <a href="http://www.liart.ru" style="text-decoration: none" target="_blank">
+                    <div class="header_banner banner1">
+                        <img src="img/banner/LOGO_RGBI_red.gif" alt="logo_RGBI"
+                            title="РОССИЙСКАЯ ГОСУДАРСТВЕННАЯ БИБЛИОТЕКА ИССКУСТВ">
+                    </div>
+                </a>
+
+                <a href="http://library-chr.ru/" style="text-decoration: none" target="_blank">
+                    <div class="header_banner banner2">
+                        <img src="img/banner/logo_ch_b2.png" alt="logo_biblioteca_chechni"
+                            title="НАЦИОНАЛЬНАЯ БИБЛИОТЕКА ЧЕЧЕНСКОЙ РЕСПУБЛИКИ А.А. АЙДАМИРОВА">
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="header_text">
+                <p class="header_text_up">Виртуальный музей читателя РГБИ</p>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="banner hid">
+
+        <img class="banner__img" src="./img/banner/headbanner.jpg">
+
+        <div class="banner__content">
+
+            <h1>Малый театр и <br> библиотека</h1>
+
+            <div class="banner__btn" onclick="IndexPopApp(1)">Об экспозиции</div>
+            <div class="banner__btn" onclick="hrefBib()">Начало осмотра</div>
+            <div class="banner__btn" onclick="IndexPopApp(3)">Заключение</div>
+            <div class="banner__btn" onclick="IndexPopApp(2)">Список литературы</div>
+
+        </div>
+    </div>
+    <div class="copyright hid"></div>
+
+    <div class="index_pop_app_bg">
+        <div class="index_pop_app_container index_pop_app_container_tran">
+            <div class="index_btn_close_popApp" title="Закрыть окно" onclick="IndexPopApp(0)">+</div>
+            <div class="overflowDiv"></div>
+        </div>
+    </div>
+
+</body>
+<script src="js/index/index_es5.js" defer></script>
+
+</html>

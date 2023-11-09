@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="muzey.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+    <title>Экспонаты</title>
+</head>
+
+
+<body id="popApp">
+
+
+
+    <header class="hid">
+
+        <div class="header_container" style="background: #EDEDED;">
+
+            <div class="header_container_up">
+
+                <a href="https://culture.gov.ru/" style="text-decoration: none" target="_blank">
+                    <div class="header_banner">
+                        <img src="img/banner/logMKblue.png" alt="logo_Министерства культуры"
+                            title="МИНИСТЕРСТВО КУЛЬТУРЫ РОССИЙСКОЙ ФЕДЕРАЦИИ">
+                    </div>
+                </a>
+
+                <a href="http://www.liart.ru" style="text-decoration: none" target="_blank">
+                    <div class="header_banner">
+                        <img src="img/banner/LOGO_RGBI_red.gif" alt="logo_RGBI"
+                            title="РОССИЙСКАЯ ГОСУДАРСТВЕННАЯ БИБЛИОТЕКА ИССКУСТВ">
+                    </div>
+                </a>
+
+                <a href="http://library-chr.ru/" style="text-decoration: none" target="_blank">
+                    <div class="header_banner">
+                        <img src="img/banner/logo_ch_b2.png" alt="logo_biblioteca_chechni"
+                            title="НАЦИОНАЛЬНАЯ БИБЛИОТЕКА ЧЕЧЕНСКОЙ РЕСПУБЛИКИ А.А. АЙДАМИРОВА">
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="header_text">
+                <p class="header_text_up">Виртуальный музей читателя РГБИ</p>
+                <a>
+                    <h1 id="goBack" class="header_text_center" title="Вернуться назад">Малый театр и библиотека
+
+                    </h1>
+                </a>
+                <!-- <img id="specialButton" style="cursor:pointer;" src="https://lidrekon.ru/images/special.png" alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" /> -->
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="hid">
+
+        <h3 class="main__header">Экспонаты с озвученной историей</h3>
+
+
+        <div class="main_contained"></div>
+
+
+    </main>
+
+
+    <div class="popup_bg_bib" id="pop_up_background">
+
+
+        <div class="popup_maket">
+
+            <div class="index_btn_close_popApp btn_biblio"  title="Закрыть окно">
+                +
+            </div>
+
+            <div class="container">
+
+                <div class="popup_header_container">
+
+                    <h1 id="contentHead">Заголовок</h1>
+
+                </div>
+
+                <div class="exponat_place">
+
+                    <img id="contentImage" src="" alt="">
+
+                    <p id="imageText"></p>
+                    
+                </div>
+
+                <div class="numeration">
+                    1234567
+                </div>
+               
+                <p class="text"  id="contentText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quas eligendi debitis voluptas dicta sunt asperiores laudantium nihil soluta sequi consequatur tenetur temporibus quod molestiae reiciendis, aliquam quo aut maiores hic tempora nesciunt architecto possimus modi officia. Perferendis id incidunt ut! Maxime similique ullam a ad itaque, placeat consequuntur reprehenderit?
+                </p>
+
+                <nav class="panel_upr">
+                    <div class="toggle">
+                        <div>
+
+                            автопоказ слайдов
+                        </div>
+                        <div class="slider">
+                            <div class="vkl">вкл</div>
+                            <div id="parent">
+                                <div id="child">.</div>
+                            </div>
+                            <div class="vikl">выкл</div>
+                        </div>
+                    </div>
+                    
+
+                </nav>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+<script src="js/biblio/card.js"></script>
+<script src="js/biblio/data.js"></script>
+<script src="js/biblio/biblio.js"></script>
+<!-- <script src="js/popupAsl.js"></script> -->
+
+</html>

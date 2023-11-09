@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "MerriweatherReg";
+    src:url(../fonts/MerriweatherReg.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "MerriweatherBlack";
+    src:url(../fonts/MerriweatherBlack.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "MerriweatherBold";
+    src:url(../fonts/MerriweatherBold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "MerriweatherBolditalic";
+    src:url(../fonts/MerriweatherBoit.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "MerriweatherLightitalic";
+    src:url(../fonts/MerriweatherLiit.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "MerriweatherLight";
+    src:url(../fonts/MerriweatherLi.ttf) format(truetype);
+}
+@font-face {
+    font-family: "MerriweatherItalic";
+    src:url(../fonts/MerriweatherIt.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyrRoman";
+    src:url(../fonts/HelvetNeueCyrRom.woff) format(truetype);
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src:url(../fonts/HelvetNeue.woff) format(truetype);
+}
